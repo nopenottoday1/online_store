@@ -1,0 +1,55 @@
+{% extends "store/index.html" %}
+{% block content %}
+
+<div class="card">
+  <img
+    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPEhIQEhASEhAQFQ8VEBAPFRAQEhAQFhUXFhURFRUYHSggGBomHhUWITEhJSktLi4uFx8zOD8sNyguLisBCgoKDQ0NDw0NDysZFRkrKys3KysrKysrKy0rKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAQIDBQcIBgT/xABBEAACAgEBBQYCBgcFCQAAAAAAAQIDEQQFBhIhMQcTQVFhcYGRFCIyQqGxFSNDUlOC0xdyksHCM2KTosPR0uHx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDeIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUzkopt9FzYHx7Z2rTo6Z6i+ahXWstvx8kl4tvkkupzzvv2hanaM3GM50aVN8FMJOLkvO1r7T9Oi9ep8/aHvnZtS94k1pa5NaetdGunfPzk/wTx558o5EHpN0t9NVsuadM+Klv6+msbdU+eXhfcl/vL456HQe5+9+m2rW50yxZDHfUT5WVN9P70XzxJcnjzTS5YRl91NvWbO1VWqrz9R4siv2lL+3W/ddPJpPwA6wBZ0mphdCFtclKuyMZwkukoSScWvgy8UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxe9Oo7rR6mz9ym6Xyg2ZQxm39q6XTVSequrrrkmmrGvr5+6o9ZP0QHIzfTCfIqTWD7t4Z6f6TdLSxcdK5vuYyTi4wwuWHzSznHpg+CEvAgq4sf/GVJ+j/AjJ9uxo0u6lahtafvKu/ceLiVPEuPHDzzjPTn5Ab47Edr26jQd1ZVOMdLLu6rpY4bYPMuGPrDPC/DHDzzlLYZj9hz0zprWkdT08Yx7tUOLgoeGMGQKAAAAAAAAAAAAAAAAAAAAAAAAAAAGO25tzT6Gt26i2NcF0z9qT/djFc5P0Rhe0reaWzNFO6tx7+bUKeLDXHL72PHCUnj0OcNq7Vv1djt1F07bH96b6LyilyivRJIDYW9vbDqLm69FH6PVzXezSldJeaTzGH4v2Nb6vVWXTdltk7bJdZ2ylOXtl88ehaTAES9Smlyrkpwk4tZxJPDjlYeH8S4UqAFWqvstlx2WSnLplvw8kuiXN8kvEpSEokRWP8A0QfTotXZRNWU2TqsX36pSrl848zZO6/bFqKeGGsgtRXyTthwwvivNrlGf/L7s1giGUdYbv7xaXaEO8010bEscUVynW34Tg+cX7mVOQtFrrdPNXU2zqtj9mdbcZLzXqvR8mdHdmO9z2rpXOxRWopl3dyhyUuWY2JeCazy84sD14AAAAAAAAAAAAAAAAAAAAAAeY7RN41s7R2WprvZ/q6E/G2SeHjyXOT9Igaa7Yd43rNZOqLzTpOKuOOkrf2kvmuH+V+Z4GEuRdtk3lttt5bb5tt9Wy1X0XsQVlaZSVFH03bOurrV86bYUyScbZwnGqSecNTaw84eOfgz5XJfvL5rmbn2Nv1symjQ1Tus4tJXpU4qm1xdtdU65Z5c8O6Ul6wz5Zq0u/mzamv105RzQnFU3xbrr07hGL8JfrJSlz8148wNJvGeq908E8SxlNP4rmbufaDsubaldJVSTzU9Na8SdnFL62OrhKcPLHDl+BffaBsrvI2PUWcrO9lFaezE7cTgrJZh1jHgxh/dxz5AaLi/l4Bs+na1ynffZHnGy26a8MxlOUk8ezPlyQJvke27Jd4/oGtgpPFGq4abfJSk/wBXP4SePRTkzwqeY/AvoDsQHmuzzeD9I6Gm5vNsV3eoXj30OTk/LiWJe0kelKAAAAAAAAAAAAAAAAAAAHPfbRvB9K1vcReatInHl0dssOb+CUV8zce/e8C2do7b+XeY4aYv71suUV7eL9Ezl261zlKcm3KTcpSfWUm8tv1bYFBap6fP8y6i1WvD1f5kFwqRSiUBUClslMokEMAGW8Y9i5IpILHR8Pm1j2PqTLNkM4fjFpl0D3/Y5vJ9D1qonLFGs4a3npG/9lL0y24evFHyOhjjuL9Wn4NPDT80/BnT/Z5vD+ktDVfJrvo5r1CWP9tDk3jw4lwzx5TRR6UAAAAAAAAAAAAAAAAAxG9u1voWkv1HjXCTivOfSK+LaQGlu2neP6Tq1pYSzVpOUsdJXv7T/lWF7uRrguX2ynJyk3KUm5Sk+spN5bfu2W0QSi2uvz/MryUY5r+b8wKySCUwJGASUQ0SQAIkQVSZSiCllxlD8CrIEmxuxTeP6LrHpZy/U63CWekdRFPgf8yzH1fAa5K6rHCUZxk4yi1KEl1jJPMZL1TSYHYQMLubt1bR0dGqWFKccWxXSN0fq2R9uJPHpgzRQAAAAAAAAAAAAADwfbPprrdnyVUeKMZwncl17qOW2l44ai/ZM94U2QUk01lPqgOOpMhs9b2lbt/o/WThGOKbc2U46KLf1oL2f4NHjsdeXzRBdi8icGsNrk+a9V0/NMt1tZM3qNG5aCrULpDVamiXu6qLYf6/mBiSCUyGBUxIPoQAySQSBDIJAAGW2ZsaV2m1mpSfDpIUe3HZbFdfSCsfyMTgCUTgolHyR9WzdJZfZXTXHNlsowhHzlJ4XsvUDdnYE7PoupUovue+Trk/GbglYl6Lhh8WzaJjN29jw0Omp0sOlUEnLpxz6zm/VybfxMmUAAAAAAAAAAAAAAAAeN7Ud1/0jpJcCzfTmdXrj7UPiuXvjyOa7YODcZJpptSUk4yhJdVJPmvidjHNna/XCG1L1FpcUaZT6L6zjj8kgPFm29hbrzv3ctxF95Zbbqqk+r4HGCxn96NTS/vI1BdNcMsNdH4ryOw7NOu67tclwcK9FjAHIGV1ySjYMexvaWMZ0qS6cVtn+VbL0exjaH8TSry+vb/TINcJ+jJNlf2L6/8Ajab/ABW/+Bbn2NbR8J6V+9lq/wCmBrgfA2L/AGN7S/e0v/Ft/plxdjW0PGzS/wCO3+mBrgjPgbJl2M6/wt0r/ntX+g+PVdke04p8MKbHh4VduMvHT66iB7ndbdPGwLKks3a6qd75P7U4Luo4flFQ+OfM0VODTw001lNNNNNdU15nX2koVdcK10hCMUvRJL/I5i3+06htHWRX8WT+Mkpv8ZMo88mbi7E90Hn9J3RwsSjpIyXN5WJ3+2MxXnmT8jynZJu9Trta4XwU6qqrLHW84slxRgk8eC48/BHRddailGKUYxSUYxSSilySSXRAVAAAAAAAAAAAAAAAAAAAfPZoKpPilVXKT6ylGLfzPoAHyvZ1L601v3hH/sfUAAAAAAAAAAAAAxuu3f0l7crdJRbJ9ZWVVzb+LRkgBjNl7vaTSydlGlopnJOLnVXCEnBtNxylnGUnj0RkwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z"
+    class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ product.title }}</h5>
+    <p class="card-text"> {{ product.info}}</p>
+    <p class="card-text"> {{ product.price }} </p>
+    <ul class="list-group list-group-horizontal">
+      
+      <li class="list-group-item"> Red </li>
+      <li class="list-group-item"> Black</li>
+    </ul>
+    <br>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Buy now!
+    </button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">{{ product.title }}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form method="post" action="/save_order">
+          {% csrf_token %}
+          <div class="mb-3">
+            <label for="user_name" class="form-label">Your name</label>
+            <input type="text" class="form-control" id="user_name" aria-describedby="emailHelp" required
+              name="user_name">
+          </div>
+          <div class="mb-3">
+            <label for="user_email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="user_email" aria-describedby="emailHelp" required
+              name="user_email">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <input value="{{ product.id }}" type="hidden" readonly name="product_id">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock%} 
